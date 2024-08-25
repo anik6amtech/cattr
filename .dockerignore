@@ -58,7 +58,6 @@ bootstrap/cache/*
 !.yarn/versions
 .pnp.*
 
-composer.phar
 
 /public/dist
 /resources/frontend/app/etc/modules.local.json
