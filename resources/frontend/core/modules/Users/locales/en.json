@@ -1,0 +1,23 @@
+{
+  "navigation": {
+    "users": "Users"
+  },
+  "users": {
+    "grid-title": "Users",
+    "crud-title": "User",
+    "statuses": {
+      "any": "Any",
+      "active": "Active",
+      "disabled": "Disabled"
+    },
+    "role": {
+      "name": "Role"
+    }
+  },
+  "languages": {
+    "default": "Default",
+    "en": "English",
+    "ru": "Русский",
+    "dk": "Danish"
+  }
+}

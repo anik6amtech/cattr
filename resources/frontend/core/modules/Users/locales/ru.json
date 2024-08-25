@@ -1,0 +1,23 @@
+{
+  "navigation": {
+    "users": "Пользователи"
+  },
+  "users": {
+    "grid-title": "Пользователи",
+    "crud-title": "Пользователь",
+    "statuses": {
+      "any": "Любой",
+      "active": "Активен",
+      "disabled": "Отключен"
+    },
+    "role": {
+      "name": "Роль"
+    }
+  },
+  "languages": {
+    "default": "По-умолчанию",
+    "en": "English",
+    "ru": "Русский",
+    "dk": "Danish"
+  }
+}
