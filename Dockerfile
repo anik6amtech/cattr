@@ -11,7 +11,14 @@ RUN apt-get update && apt-get install -y \
     libfreetype6-dev \
     libzip-dev \
     libwebp-dev \
-    && docker-php-ext-install pdo_mysql zip gd
+    && docker-php-ext-install pdo_mysql zip
+
+# Configure and install GD extension
+RUN docker-php-ext-configure gd \
+    --with-freetype \
+    --with-jpeg \
+    --with-webp \
+    && docker-php-ext-install gd
 
 # Install Composer
 COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
